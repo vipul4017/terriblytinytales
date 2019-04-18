@@ -6,11 +6,12 @@ var logger = require('morgan');
 var expressValidation = require('express-validation');
 var UnauthorizedError = require('express-jwt').UnauthorizedError;
 
-var indexRouter = require('./routes/index');
+// var indexRouter = require('./routes/index');
 var wordsRouter = require('./routes/wordsthread');
 
 
 var app = express();
+// app.use(favicon(_dirname + '/public/favicon.ico'))
 
 
 
