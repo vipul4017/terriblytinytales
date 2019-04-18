@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var expressValidation = require('express-validation');
+var favicon = require('serve-favicon');
 var UnauthorizedError = require('express-jwt').UnauthorizedError;
 
 // var indexRouter = require('./routes/index');
@@ -11,7 +12,7 @@ var wordsRouter = require('./routes/wordsthread');
 
 
 var app = express();
-// app.use(favicon(_dirname + '/public/favicon.ico'))
+app.use(favicon(___dirname + '/public/favicon.ico'))
 
 
 
